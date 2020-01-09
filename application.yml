@@ -1,0 +1,14 @@
+spring: 
+  profiles: 
+    active: 
+      - dev
+---
+spring: 
+  profiles: dev
+  application: 
+    name: microcloud-config-mxd-dev
+---
+spring: 
+  profiles: test	#测试环境
+  application: 
+    name: microcloud-mxd-test
