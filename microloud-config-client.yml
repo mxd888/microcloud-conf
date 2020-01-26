@@ -14,7 +14,7 @@ eureka:
     service-url: 
       defaultZone: http://eureka7001.com:7001/eureka/
 info:
-  app.name: BUS-TestSecond-microcloud
+  app.name: BUS-microcloud
   company.name: www.hdu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
